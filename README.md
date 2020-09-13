@@ -26,7 +26,7 @@ https://pomb.us/build-your-own-react/
 
     const element = <h1 title="foo">Hello</h1>
     const container = document.getElementById("root")
-    ReactDOM.rennder(element, container)
+    ReactDOM.render(element, container)
 
 Line one defines a React Element.
 
