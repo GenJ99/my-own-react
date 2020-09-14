@@ -54,7 +54,7 @@ React.createElement creates an object from it's arguments. Replace the function 
     const container = document.getElementById("root")
     ReactDOM.render(element, container)
 
-An `element` is an object with two properties: type and props (it has more but `these two` are important for the project).
+An `element` is an object with two properties: type and props (it has more but `these two` are the important ones for the project).
 
 `Type` is a string that specifies the type of DOM node to create which is the tagName you pass to document.createElement when you create an HTML element.
 
@@ -98,7 +98,7 @@ Plus create the nodes for the children. This is for `children` in the element ob
     node["title"] = element.props.title
 
     const text = document.createTextNode("")
-    text["nodeValue"] = element.props.chidren
+    text["nodeValue"] = element.props.children
 
 The final part is to append the `textNode` to the `h1` and the `h1` to the `container`:
 
